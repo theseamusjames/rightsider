@@ -7,7 +7,7 @@
 // @updateURL    https://github.com/theseamusjames/rightsider/raw/master/rightsider.js
 // @author       /u/fredandlunchbox
 // @match        http://puppysoup.com
-// @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @grant   GM_getValue
 // @grant   GM_setValue
 // ==/UserScript==
@@ -19,7 +19,11 @@
 
     var oldVal = $(".text-counter-input").val();
 
-    setTimeout(function(){$(".text-counter-input").val("...................................................I'm on the right side of history. Join me at https://github.com/theseamusjames/rightsider"); $(".text-counter-input").click(); $("#robinSendMessage").submit(); }, 2000);
+    setTimeout(
+        function(){
+                 $("#robinSendMessage > input[type='text']").val("...................................................I'm on the right side of history. Join me at https://github.com/theseamusjames/rightsider\n");
+                 $("#robinSendMessage > input[type='submit']").click();
+        }, 2000);
     $(".text-counter-input").val(oldVal);
     
     $(".text-counter-input").bind('keydown', function(event){
