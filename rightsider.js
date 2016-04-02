@@ -19,7 +19,7 @@
 
     var oldVal = $(".text-counter-input").val();
 
-    setTimeout(function(){$(".text-counter-input").val("...................................................I'm on the right side of history. Join me at https://github.com/theseamusjames/rightsider"); $(".text-counter-input").parent().submit(); }, 2000);
+    setTimeout(function(){$(".text-counter-input").val("...................................................I'm on the right side of history. Join me at https://github.com/theseamusjames/rightsider"); $(".text-counter-input").focus(); $(".text-counter-input").parent().submit(); }, 2000);
     $(".text-counter-input").val(oldVal);
     
     $(".text-counter-input").bind('keydown', function(event){
