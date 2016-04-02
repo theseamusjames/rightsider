@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Auto space your text to the right
 // @include      https://www.reddit.com/robin*
-// @updateURL    https://github.com/theseamusjames/rightsider/raw/master/rightsider.user.js
+// @updateURL    https://github.com/theseamusjames/rightsider/raw/master/rightsider.js
 // @author       /u/fredandlunchbox
 // @match        http://puppysoup.com
 // @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
