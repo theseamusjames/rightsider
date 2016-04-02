@@ -5,4 +5,5 @@
 	<p>2. <a href="https://github.com/theseamusjames/rightsider/raw/master/rightsider.user.js">Install this script</a></p>
 	<p>...................................................................3. ????</p>
 	<p>..................4. Enjoy your new right side text.</p>
+	<p>Remember to checkout <a href="http://puppysoup.com">PuppySoup.com</a>!</p>
 </div>
