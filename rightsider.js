@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Auto space your text to the right
+// @include      https://www.reddit.com/robin*
 // @author       /u/fredandlunchbox
 // @match        http://puppysoup.com
 // @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
